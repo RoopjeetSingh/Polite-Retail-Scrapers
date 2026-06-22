@@ -1,0 +1,62 @@
+{
+  "product_id": "37211085",
+  "url": "https://www.overstock.com/Home-Garden/3-Seater-Sofa-Dark-Gray-82.7-Fabric/37211085/product.html",
+  "source_url": "https://www.overstock.com/Home-Garden/sofa/37211085/product.html",
+  "fetched_at": "2026-06-20T02:18:30Z",
+  "title": "3-Seater Sofa Dark Gray 82.7\" Fabric Couch",
+  "brand": "HomeRoots",
+  "price": {
+    "amount": 489.99,
+    "currency": "USD",
+    "list_price": 799.99
+  },
+  "rating": {
+    "stars": 4.3,
+    "count": 128
+  },
+  "availability": "In stock",
+  "bullets": [
+    "Seats up to three people comfortably",
+    "Durable hardwood frame with high-density foam cushions",
+    "Stain-resistant polyester fabric upholstery"
+  ],
+  "description": "Add modern comfort to your living room with this 82.7-inch three-seater sofa. The dark gray fabric pairs with any decor, and the deep seat invites you to relax.",
+  "images": {
+    "main": [
+      "https://ak1.ostkcdn.com/images/products/37211085/main.jpg",
+      "https://ak1.ostkcdn.com/images/products/37211085/alt1.jpg"
+    ],
+    "thumbnails": [
+      "https://ak1.ostkcdn.com/images/products/37211085/thumb.jpg"
+    ],
+    "variants": {
+      "Color": [
+        "https://ak1.ostkcdn.com/swatch/darkgray.jpg"
+      ]
+    }
+  },
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Sofas"
+  ],
+  "specs": {
+    "Overall Dimensions": "82.7\"W x 33\"D x 35\"H",
+    "Weight": "78 lbs",
+    "Material": "Polyester, Hardwood",
+    "Assembly Required": "Yes",
+    "Style": "Modern"
+  },
+  "variations": {
+    "color": [
+      "Dark Gray",
+      "Beige",
+      "Navy"
+    ]
+  },
+  "page_text": "3-Seater Sofa Dark Gray 82.7\" Fabric Couch - Overstock - 37211085\n\n3-Seater Sofa Dark Gray 82.7\" Fabric Couch\n$489.99 was $799.99\nAdd modern comfort to your living room with this 82.7-inch three-seater sofa.",
+  "dimensions": "82.7\"W x 33\"D x 35\"H",
+  "weight": "78 lbs",
+  "materials": "Polyester, Hardwood",
+  "assembly_required": true
+}

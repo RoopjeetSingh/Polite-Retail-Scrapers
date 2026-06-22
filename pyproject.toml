@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "retail-scraper"
+version = "0.1.0"
+description = "Polite multi-retailer product scraper for 16 major US retailers"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "httpx[http2]>=0.27",
+    "selectolax>=0.3",
+    "lxml>=5.0",
+]
+
+[project.optional-dependencies]
+# Required for Akamai-fronted retailers (Best Buy, ASOS, Target, Sephora, Ulta,
+# Newegg, Urban Outfitters, Nike)
+curl = ["curl-cffi>=0.6"]
+
+# Required for JS-challenge retailers (Wayfair, Nordstrom Rack, H&M, Overstock,
+# Dick's Sporting Goods, Costco). Also run: playwright install chromium
+browser = [
+    "playwright>=1.43",
+    "playwright-stealth>=2.0",
+]
+
+all = ["retail-scraper[curl,browser]"]
+
+[project.scripts]
+scrape = "scraper.api:_cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["scraper*"]

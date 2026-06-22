@@ -1,0 +1,12 @@
+# Core — always required
+httpx[http2]>=0.27
+selectolax>=0.3
+lxml>=5.0
+
+# Akamai-fronted retailers (Best Buy, ASOS, Target, Sephora, Ulta, Newegg, Urban Outfitters, Nike)
+curl-cffi>=0.6
+
+# JS-challenge retailers (Wayfair, Nordstrom Rack, H&M, Overstock, Dick's Sporting Goods, Costco)
+# After installing, run: playwright install chromium
+playwright>=1.43
+playwright-stealth>=2.0

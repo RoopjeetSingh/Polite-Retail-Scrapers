@@ -1,0 +1,127 @@
+{
+    "product_id": "BV2654-410",
+    "url": "https://www.nike.com/t/sportswear-club-fleece-pullover-hoodie-Gw4Nwq/BV2654-410",
+    "source_url": "https://www.nike.com/t/x/BV2654-410",
+    "fetched_at": "2026-06-07T05:52:42Z",
+    "title": "Nike Sportswear Club Fleece Pullover Hoodie",
+    "brand": "Nike",
+    "price": {
+        "amount": 44.97,
+        "currency": "USD",
+        "list_price": 65.0
+    },
+    "availability": "InStock",
+    "bullets": [
+        "Brushed-back fleece is soft and smooth against the skin.",
+        "Hood with a drawstring offers adjustable coverage.",
+        "Standard fit for a relaxed, easy feel",
+        "Ribbed hem and cuffs",
+        "Kangaroo pocket",
+        "Fabric: Body: 80-82% cotton/18-20% polyester. Hood lining: 100% cotton.",
+        "Machine wash",
+        "Imported",
+        "Note: Material percentages may vary depending on factory. Check label for actual content.",
+        "Standard fit: easy and traditional",
+        "If you typically wear men's styles, please select your usual size. If you typically wear women's styles, please size down."
+    ],
+    "description": "A closet staple, the Nike Sportswear Club Fleece Pullover Hoodie combines classic style with the soft comfort of fleece.",
+    "images": {
+        "main": [
+            "https://static.nike.com/a/images/t_default/xvbs11kuyc818vgrarc6/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/gmwcjpitkjeqsntggenx/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/pbsnnbktufr12hen0d77/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/wxhd39tom3ejq0jh2ywe/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/uccbkpwiacerwuqxmnbj/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/522fb4ce-0ab3-40ac-ac97-56be061e9f1f/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/be8c81f3-2a04-4d09-8d96-cf3a49b47b3f/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/6421faec-fd7d-4f93-8125-dd0719c9faa3/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/50fc1987-ac32-4122-b8dd-6f51105c7f52/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/483ee0f9-33b8-4019-90f5-126d3ed1e0a6/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/a37e82d0-e38b-43b1-98b0-b77e72fad520/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/6c65e734-567b-47c2-9e68-688cf4f6e07c/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/7ae41243-a501-4eef-93e0-d489aac41dec/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/3cb3c443-c4f0-466f-9a95-d102799428e6/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/610b321a-e9a3-47b9-a16b-8da646cd963d/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/2bdeb55c-25ba-4ac8-bb4a-dc1f00005325/M+NSW+CLUB+HOODIE+PO+BB.png",
+            "https://static.nike.com/a/images/t_default/a3d6c195-3a38-4120-8a41-eeff7685c3b5/M+NSW+CLUB+HOODIE+PO+BB.png"
+        ],
+        "variants": {
+            "Midnight Navy/Midnight Navy/White": [
+                "https://static.nike.com/a/images/t_default/xvbs11kuyc818vgrarc6/M+NSW+CLUB+HOODIE+PO+BB.png"
+            ],
+            "Black/Black/White": [
+                "https://static.nike.com/a/images/t_default/136c17a4-16c0-47ce-b922-679098771a7d/M+NSW+CLUB+HOODIE+PO+BB.png"
+            ],
+            "Dark Grey Heather/Matte Silver/White": [
+                "https://static.nike.com/a/images/t_default/0a3e29aa-999e-4939-883d-0436b9a2b8f9/M+NSW+CLUB+HOODIE+PO+BB.png"
+            ],
+            "White/White/Black": [
+                "https://static.nike.com/a/images/t_default/uxljj6kwd3ur17hoeubg/M+NSW+CLUB+HOODIE+PO+BB.png"
+            ],
+            "Sail/Sail/White": [
+                "https://static.nike.com/a/images/t_default/76aa4edd-9749-4eb9-87c1-ddb4dd7ec14a/M+NSW+CLUB+HOODIE+PO+BB.png"
+            ],
+            "Khaki/Khaki/White": [
+                "https://static.nike.com/a/images/t_default/e5ad23cc-6e81-4c08-9cc1-7f9487e059e0/M+NSW+CLUB+HOODIE+PO+BB.png"
+            ],
+            "Washed Coral/Washed Coral/White": [
+                "https://static.nike.com/a/images/t_default/55d1fc3e-1b43-4d22-b420-a99269294d0f/M+NSW+CLUB+HOODIE+PO+BB.png"
+            ]
+        }
+    },
+    "categories": [
+        "Men",
+        "Hoodies",
+        "Nike Club",
+        "Lifestyle"
+    ],
+    "specs": {
+        "Style": "BV2654-410",
+        "Style Code": "BV2654",
+        "Colour Shown": "Midnight Navy/Midnight Navy/White",
+        "Product Type": "Apparel",
+        "Fabric": "Body: 80-82% cotton/18-20% polyester. Hood lining: 100% cotton."
+    },
+    "variations": {
+        "size": [
+            "XXS",
+            "XS",
+            "S Short",
+            "S",
+            "S Tall",
+            "M Short",
+            "M",
+            "M Tall",
+            "L",
+            "L Short",
+            "L Tall",
+            "XL Short",
+            "XL",
+            "XL Tall",
+            "2XL-S",
+            "2XL",
+            "2XL Tall",
+            "3XL Short",
+            "3XL",
+            "3XL Tall",
+            "4XL",
+            "4XL Tall"
+        ],
+        "color": [
+            "Midnight Navy/Midnight Navy/White",
+            "Black/Black/White",
+            "Dark Grey Heather/Matte Silver/White",
+            "White/White/Black",
+            "Sail/Sail/White",
+            "Khaki/Khaki/White",
+            "Washed Coral/Washed Coral/White"
+        ]
+    },
+    "seller": "Nike",
+    "colorway": "Midnight Navy/Midnight Navy/White",
+    "style_code": "BV2654",
+    "material": "Fabric: Body: 80-82% cotton/18-20% polyester. Hood lining: 100% cotton.",
+    "gender": "Men",
+    "sport": "Lifestyle",
+    "page_text": "Nike Sportswear Club Fleece Pullover Hoodie. Nike.com\n\n  image 1 of 17chevron left, back, previous, returnchevron right, next, forward, proceedNike Sportswear Club FleecePullover Hoodie$44.97$6530% offFavoriteheart, like, love, save, wishlistnon-filledA closet staple, the Nike Sportswear Club Fleece Pullover Hoodie combines classic style with the soft comfort of fleece.Shown: Midnight Navy/Midnight Navy/WhiteStyle: BV2654-410View Product DetailsNike Sportswear Club Fleece$44.97$6530% offCLASSIC COMFORT.A closet staple, the Nike Sportswear Club Fleece Pullover Hoodie combines classic style with the soft comfort of fleece.Soft ComfortBrushed-back fleece is soft and smooth against the skin.Adjustable CoverageHood with a drawstring offers adjustable coverage.Product DetailsStandard fit for a relaxed, easy feelRibbed hem and cuffsKangaroo pocketFabric: Body: 80-82% cotton/18-20% polyester. Hood lining: 100% cotton.Machine washImportedNote: Material percentages may vary depending on factory. Check label for actual content.Shown: Midnight Navy/Midnight Navy/WhiteStyle: BV2654-410Size & Fit\n Standard fit: easy and traditional\n\n If you typically wear men's styles, please select your usual size. If you typically wear women's styles, please size down.\nSize GuideShipping & ReturnsFree standard shipping on orders $50+ and free 60-day returns for Nike Members. Learn more. Return policy exclusions apply.Pick-up available at select Nike Stores.star, score, rank, reviewstar, score, rank, reviewstar, score, rank, reviewstar, score, rank, reviewstar, score, rank, reviewNike Sportswear Club Fleece$44.97$6530% offWrite a Review"
+}

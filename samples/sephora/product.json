@@ -1,0 +1,127 @@
+{
+    "product_id": "P433172",
+    "url": "https://www.sephora.com/product/P433172",
+    "source_url": "https://www.sephora.com/product/x-P433172",
+    "fetched_at": "2026-06-07T02:58:06Z",
+    "title": "No.4 Bond Maintenance®  Strengthening, Hydrating Hair Repair Shampoo for Medium Hair",
+    "brand": "Olaplex",
+    "price": {
+        "amount": 34.0,
+        "currency": "USD"
+    },
+    "price_range": {
+        "min": 16.0,
+        "max": 58.0
+    },
+    "rating": {
+        "stars": 4.12,
+        "count": 3389
+    },
+    "availability": "InStock",
+    "bullets": [
+        "Bond Building",
+        "All Hair Types",
+        "Increases Shine",
+        "Good for: Damage",
+        "Good for: Dryness",
+        "All Hair Textures"
+    ],
+    "description": "What it is: A highly concentrated shampoo for medium to coarse hair that targets everyday damage to strengthen, reinforce, nourish, and boost shine in one wash.Hair Texture: Straight, Wavy, Curly, and CoilyHair Type: Fine, Medium, and ThickHair Concerns:- Color Safe- Damage, Split Ends, and Breakage- FrizzKey Benefits: - Cares for everyday damage and defends against future breakage- Strengthens and reinforces bonds for more resilient hair- Replenishes hydration, enhances softness and shine, smooths, and reduces frizzHighlighted Ingredients:- Bis-Aminopropyl Diglycol Dimaleate: Patented and proven technology to restore broken bonds for stronger hair.- Gentle Blend of Coconut Oil-Derived Surfactants: For an easy, abundant lather that leaves the scalp and hair feeling hydrated.Ingredient Callouts: Free of parabens, formaldehydes, phthalates, mineral oil, retinyl palmitate, oxybenzone, coal tar, hydroquinone, sulfates SLS & SLES, triclocarban, triclosan, and contains less than one percent synthetic fragrance. It is also cruelty-free.What Else You Need to Know: This highly concentrated strengthening shampoo cares for everyday damage in one wash. The abundant lather gently cleanses and replenishes hydration, leaving hair soft. It’s shown to boost shine and reduce split ends and frizz. The formula is dermatologist tested, color safe, and suitable for chemically treated hair.Fragrance Description: Revitalize your senses with a bright burst of grapefruit zest, the crisp scent of sugared mint, ginger, and a sophisticated, grounding base of crushed sage.Clinical Results: In a test, after 1 wash, when used as a system with No.5 Bond Maintenance Shampoo (sold separately), results showed:- Repairs everyday damage and strengthens hair at a molecular level- Defends against future breakage and reduce split ends, frizz, and flyaways- 73% increase in hydration for soft, shiny, and more manageable hair",
+    "images": {
+        "main": [
+            "https://www.sephora.com/productimages/sku/s2118867-main-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-01-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-02-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-03-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-04-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-5202504300725266130700-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-08-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-06-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-07-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-9202504300849537070700-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-10202506251416169430700-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-11202507081107294760700-zoom.jpg",
+            "https://www.sephora.com/productimages/sku/s2118867-av-12202507081107293840700-zoom.jpg"
+        ],
+        "variants": {
+            "8.5 oz/ 250 mL": [
+                "https://www.sephora.com/productimages/sku/s2118867-main-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-01-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-02-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-03-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-04-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-5202504300725266130700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-08-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-06-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-07-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-9202504300849537070700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-10202506251416169430700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-11202507081107294760700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2118867-av-12202507081107293840700-zoom.jpg"
+            ],
+            "3.3 oz/ 100 mL": [
+                "https://www.sephora.com/productimages/sku/s2212116-main-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-1202507081113166660700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-2202507081113167870700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-3202507081113179120700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-4202507081113171390700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-5202507081113181210700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-6202507081113176820700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-7202507081113163120700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-8202507081113169750700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-9202507081113173000700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-10202507081113181660700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-11202507081113164440700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2212116-av-12202507081113174350700-zoom.jpg"
+            ],
+            "17.75 oz / 525 mL": [
+                "https://www.sephora.com/productimages/sku/s2847663-main-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-1202505281056513250700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-2202505281056517250700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-3202505281056529260700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-4202505281056505860700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-5202505281056529060700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-6202505281056519870700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-7202505281056517470700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-8202505281056521490700-zoom.jpg",
+                "https://www.sephora.com/productimages/sku/s2847663-av-9202505281056525640700-zoom.jpg"
+            ]
+        }
+    },
+    "categories": [
+        "Hair",
+        "Shampoo & Conditioner",
+        "Shampoo"
+    ],
+    "specs": {
+        "SKU": "2118867",
+        "Size": "8.5 oz/ 250 mL",
+        "Hair Concerns": "colorSafe, dryness, damageSplitEnds",
+        "Hair Texture": "curly, wavy, coily",
+        "Skin Concerns": "dryness",
+        "Formulation": "liquid",
+        "Hair Type": "medium, thick",
+        "Ingredient Preferences": "vegan"
+    },
+    "variations": {
+        "size": [
+            "8.5 oz/ 250 mL",
+            "3.3 oz/ 100 mL",
+            "17.75 oz / 525 mL"
+        ]
+    },
+    "seller": "Sephora",
+    "highlights": [
+        "Bond Building",
+        "All Hair Types",
+        "Increases Shine",
+        "Good for: Damage",
+        "Good for: Dryness",
+        "All Hair Textures"
+    ],
+    "ingredients": "-Bis-Aminopropyl Diglycol Dimaleate: Patented and proven technology to restore broken bonds for stronger hair.-Gentle Blend of Coconut Oil-Derived Surfactants: For an easy, abundant lather that leaves the scalp and hair feeling hydrated.Water/Aqua/Eau, Sodium Lauroyl Methyl Isethionate, Cocamidopropyl Hydroxysultaine, Potassium Cocoyl Glycinate, Disodium Cocoyl Glutamate, Potassium Cocoate, Sodium Lauroyl Sarcosinate, Decyl Glucoside, Glycereth-26, Bis-Aminopropyl Diglycol Dimaleate, Cocamidopropylamine Oxide, Sodium Chloride, Glycol Distearate, Sodium Cocoyl Glutamate, Methyl Gluceth-20, Acrylates Copolymer, Disodium Laureth Sulfosuccinate, PEG-120 Methyl Glucose Dioleate, Amodimethicone, Citric Acid, Polyquaternium-10, Sodium Lauryl Sulfoacetate, Ethylhexylglycerin, Divinyldimethicone/Dimethicone Copolymer, Polyquaternium-11, Guar Hydroxypropyltrimonium Chloride, Trisodium Ethylenediamine Disuccinate, C11-15 Alketh-7, Glycerin, Laureth-9, Trideceth-12, Tetrasodium Iminodisuccinate, Panthenol, C12-13 Alketh-23, C12-13 Alketh-3, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Sodium Hydroxide, Helianthus Annuus (Sunflower) Seed Oil, Disodium EDTA, Tocopherol, Prunus Armeniaca (Apricot) Kernel Oil, Pseudozyma Epicola/Camellia Sinensis Seed Oil Ferment Extract Filtrate, Argania Spinosa Kernel Oil, Quaternium-95, Helianthus Annuus (Sunflower) Seed Extract, Propanediol, PEG-8, Origanum Vulgare Leaf Extract, Euterpe Oleracea Fruit Extract, Candida Bombicola/Glucose/Methyl Rapeseedate Ferment, Morinda Citrifolia Fruit Extract, PEG-8/SMDI Copolymer, Sodium Hyaluronate, Palmitoyl Myristyl Serinate, Sodium Polyacrylate, Arctium Lappa Root Extract, Musa Sapientum (Banana) Fruit Extract, Punica Granatum Fruit Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Potassium Sorbate, Chlorphenesin, Sodium Benzoate, Phenoxyethanol, Fragrance (Parfum), Citral, Hexyl Cinnamal, Limonene.",
+    "how_to_use": "Suggested Usage:-A little goes a long way with this highly concentrated formula. -Dispense, emulsify in hands, and apply to wet hair. -Lather thoroughly and rinse well. -Follow with No.5 Bond Maintenance Conditioner (sold separately) or Olaplex mask of choice.",
+    "size": "8.5 oz/ 250 mL",
+    "details": "A highly concentrated shampoo for medium to coarse hair that targets everyday damage to strengthen, reinforce, nourish, and boost shine in one wash.",
+    "page_text": "No. 4 Bond Maintenance&trade; Shampoo - Olaplex | SephoraOlaplex No.4 Bond Maintenance® Strengthening, Hydrating Hair Repair Shampoo for Medium Hair3.4K3.4K|Ask a question|Ask a question|319.7KHighly rated by customers for: smell, softness, satisfaction $34.00or 4 payments of $8.50 with or or get it for $32.30 (5% off) with Auto-ReplenishSee all14Choosing a color may automatically update the product photos that are displayed to match the selected colorChoosing a color may automatically update the product photos that are displayed to match the selected SizeSize: 8.5 oz/ 250 mLSize: 8.5 oz/ 250 mLStandard size8.5 oz/ 250 mLMini size3.3 oz/ 100 mLValue size17.75 oz / 525 mLSign in for FREE shippingSign in\n or create an account\n to enjoy FREE standard shipping\n.Shipping & Returns\nAuto-ReplenishSave 5% on this item$32.30 (Save 5%) $34.00Delivery every  Month ﻿By enrolling, you consent to the reoccurring charge for your subscription.About Auto-ReplenishSame-Day DeliverySelect to see availability for your location﻿About Same-Day DeliveryBuy Online & Pick UpSelect to see availability at stores near you﻿About Buy Online & Pick UpBack to Top"
+}
