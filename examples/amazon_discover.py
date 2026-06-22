@@ -4,7 +4,7 @@ discover_amazon() follows pagination and returns a deduplicated list of
 canonical product URLs (https://www.amazon.com/dp/<ASIN>).
 """
 import json
-from scraper import PoliteFetcher, discover_amazon, scrape_product
+from polite_retail_scrapers import PoliteFetcher, discover_amazon, scrape_product
 
 listing_url = "https://www.amazon.com/s?k=wireless+headphones"
 

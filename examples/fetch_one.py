@@ -1,6 +1,6 @@
 """Scrape a single product URL from any supported retailer."""
 import json
-from scraper import scrape_product
+from polite_retail_scrapers import scrape_product
 
 # Works with any of the 16 supported retailers — the URL is auto-routed.
 url = "https://www.amazon.com/dp/B0CRMZHDG7"

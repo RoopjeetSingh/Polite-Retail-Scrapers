@@ -5,14 +5,14 @@ Every parse_<retailer>.py module is self-contained. If you already have HTML
 parse_product() directly with just selectolax and lxml installed.
 
 This pattern works identically for all 16 retailers:
-    from scraper.parse_walmart import parse_product
-    from scraper.parse_bestbuy import parse_product
+    from polite_retail_scrapers.parse_walmart import parse_product
+    from polite_retail_scrapers.parse_bestbuy import parse_product
     ...
 """
 import gzip
 import json
 
-from scraper.parse_nike import parse_product
+from polite_retail_scrapers.parse_nike import parse_product
 
 # Load a locally-saved HTML file (gzipped or plain).
 html_path = "my_nike_page.html.gz"

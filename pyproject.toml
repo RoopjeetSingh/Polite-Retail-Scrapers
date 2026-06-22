@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "polite-retail-scrapers"
@@ -8,12 +8,33 @@ version = "0.1.0"
 description = "Polite multi-retailer product scraper for 16 major US retailers"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
+authors = [
+    { name = "Roopjeet Singh", email = "roopjeetsingh2004@gmail.com" },
+]
+keywords = [
+    "scraping", "web-scraping", "amazon", "walmart", "retailer",
+    "product-data", "e-commerce", "playwright", "httpx",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 dependencies = [
     "httpx[http2]>=0.27",
     "selectolax>=0.3",
     "lxml>=5.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/RoopjeetSingh/polite-retail-scrapers"
+Issues = "https://github.com/RoopjeetSingh/polite-retail-scrapers/issues"
 
 [project.optional-dependencies]
 # Required for Akamai-fronted retailers (Best Buy, ASOS, Target, Sephora, Ulta,
@@ -27,11 +48,11 @@ browser = [
     "playwright-stealth>=2.0",
 ]
 
-all = ["retail-scraper[curl,browser]"]
+all = ["polite-retail-scrapers[curl,browser]"]
 
 [project.scripts]
-scrape = "scraper.api:_cli"
+scrape = "polite_retail_scrapers.api:_cli"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["scraper*"]
+include = ["polite_retail_scrapers*"]

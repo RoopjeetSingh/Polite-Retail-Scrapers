@@ -41,7 +41,7 @@ The parsers are intentionally self-contained. If you only need Nike, copy `parse
 ## Quick Start
 
 ```python
-from scraper import scrape_product
+from polite_retail_scrapers import scrape_product
 import json
 
 product = scrape_product("https://www.amazon.com/dp/B0CRMZHDG7")
@@ -98,7 +98,7 @@ See `.env.example` for a copy-paste template.
 ### Scrape a single product URL
 
 ```python
-from scraper import scrape_product
+from polite_retail_scrapers import scrape_product
 
 # URL is auto-routed. Works with any supported retailer
 product = scrape_product("https://www.bestbuy.com/site/apple-macbook-pro/6525065.p?skuId=6525065")
@@ -111,7 +111,7 @@ print(product["price"])
 Sharing a `PoliteFetcher` reuses the HTTP session, UA state, and browser contexts which is more efficient and more realistic-looking than creating a new one per product.
 
 ```python
-from scraper import PoliteFetcher, scrape_product
+from polite_retail_scrapers import PoliteFetcher, scrape_product
 
 with PoliteFetcher() as fetcher:
     for url in my_product_urls:
@@ -127,7 +127,7 @@ with PoliteFetcher() as fetcher:
 `discover_amazon()` returns a plain Python list of product URLs. Pipe it directly into `scrape_product()`. You could change this to using a database so that you could scrape the product urls later.
 
 ```python
-from scraper import PoliteFetcher, discover_amazon, scrape_product
+from polite_retail_scrapers import PoliteFetcher, discover_amazon, scrape_product
 
 urls = discover_amazon(
     "https://www.amazon.com/s?k=mechanical+keyboards",
@@ -164,7 +164,7 @@ Every `parse_<retailer>.py` has zero dependency on `fetch.py`, `browser_fetch.py
 
 ```python
 import gzip
-from scraper.parse_nike import parse_product  # or any other retailer
+from polite_retail_scrapers.parse_nike import parse_product  # or any other retailer
 
 with gzip.open("saved_nike_page.html.gz") as f:
     html = f.read().decode()
@@ -176,9 +176,9 @@ print(product["price"])
 
 This works identically for every supported retailer:
 ```python
-from scraper.parse_walmart import parse_product
-from scraper.parse_bestbuy import parse_product
-from scraper.parse_sephora import parse_product
+from polite_retail_scrapers.parse_walmart import parse_product
+from polite_retail_scrapers.parse_bestbuy import parse_product
+from polite_retail_scrapers.parse_sephora import parse_product
 # ...
 ```
 
@@ -252,7 +252,7 @@ When a retailer serves a bot challenge page, the fetcher raises `CaptchaBlocked`
 4. Sleeps 30–90 minutes before the next attempt
 
 ```python
-from scraper import CaptchaBlocked, PoliteFetcher, scrape_product
+from polite_retail_scrapers import CaptchaBlocked, PoliteFetcher, scrape_product
 
 with PoliteFetcher() as fetcher:
     try:
@@ -276,7 +276,7 @@ SCRAPER_ENABLE_CAPTCHA_BACKOFF=0 python my_script.py
 `discover_amazon` is currently the only built-in discovery module. It returns a plain Python list. Per-retailer listing crawlers and a Google Shopping discovery module are planned.
 
 ```python
-from scraper import discover_amazon
+from polite_retail_scrapers import discover_amazon
 
 # Works with Amazon search pages, category pages, and other listing URLs.
 # Returns a list[str] of canonical product URLs (https://www.amazon.com/dp/<ASIN>).
@@ -303,7 +303,7 @@ There are three cases depending on what you need.
 
 This is the common case. You have product page URLs and want structured data from them.
 
-**1. Create `scraper/parse_<retailer>.py`** with this interface:
+**1. Create `polite_retail_scrapers/parse_<retailer>.py`** with this interface:
 
 ```python
 DOMAINS = ["example.com"]          # domain substrings this parser handles
@@ -328,11 +328,11 @@ def parse_product(html: str, source_url: str) -> dict:
     return out
 ```
 
-**2. Register in `scraper/parse_dispatch.py`** : add a `Retailer(...)` entry to the `REGISTRY` tuple.
+**2. Register in `polite_retail_scrapers/parse_dispatch.py`** : add a `Retailer(...)` entry to the `REGISTRY` tuple.
 
-**3. Register in `scraper/captcha.py`** : import the new module and add its domains to `_DOMAIN_MARKERS`.
+**3. Register in `polite_retail_scrapers/captcha.py`** : import the new module and add its domains to `_DOMAIN_MARKERS`.
 
-**4. Add to `scraper/config.py`'s `FETCH_STRATEGY`** with `"httpx"`, `"curl_cffi"`, or `"browser"`.
+**4. Add to `polite_retail_scrapers/config.py`'s `FETCH_STRATEGY`** with `"httpx"`, `"curl_cffi"`, or `"browser"`.
 
 After these four steps, `scrape_product("https://example.com/product/123")` auto-routes to your parser.
 
@@ -342,7 +342,7 @@ After these four steps, `scrape_product("https://example.com/product/123")` auto
 
 Use this when you want to build a URL list from category/search pages, without necessarily scraping product pages.
 
-**1. Create `scraper/discover_<retailer>.py`** with at minimum:
+**1. Create `polite_retail_scrapers/discover_<retailer>.py`** with at minimum:
 
 ```python
 def parse_listing(html: str, base_url: str) -> tuple[list[str], str | None]:
@@ -356,7 +356,7 @@ def parse_listing(html: str, base_url: str) -> tuple[list[str], str | None]:
     return urls, next_url
 ```
 
-**2. Add a `discover_<retailer>()` function to `scraper/api.py`** following the same pattern as `discover_amazon()`:
+**2. Add a `discover_<retailer>()` function to `polite_retail_scrapers/api.py`** following the same pattern as `discover_amazon()`:
 
 ```python
 def discover_walmart(start_url, fetcher=None, max_products=None):
@@ -365,7 +365,7 @@ def discover_walmart(start_url, fetcher=None, max_products=None):
     ...
 ```
 
-**3. Export from `scraper/__init__.py`** if you want it in the top-level API.
+**3. Export from `polite_retail_scrapers/__init__.py`** if you want it in the top-level API.
 
 ---
 
