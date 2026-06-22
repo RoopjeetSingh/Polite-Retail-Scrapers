@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Polite multi-retailer product scraper for 16 major US retailers"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { file = "LICENSE" }
+license = { text = "MIT" }
 authors = [
     { name = "Roopjeet Singh", email = "roopjeetsingh2004@gmail.com" },
 ]
@@ -52,6 +52,9 @@ all = ["polite-retail-scrapers[curl,browser]"]
 
 [project.scripts]
 scrape = "polite_retail_scrapers.api:_cli"
+
+[tool.setuptools]
+license-files = []
 
 [tool.setuptools.packages.find]
 where = ["."]
