@@ -38,26 +38,6 @@ The parsers are intentionally self-contained. If you only need Nike, copy `parse
 
 ---
 
-## Installation
-
-Clone the repo, then install with the extras you need:
-
-```bash
-# Amazon + Walmart only (httpx, no curl_cffi or playwright)
-pip install -e "."
-
-# + Akamai-fronted retailers: Best Buy, ASOS, Target, Sephora, Ulta, Newegg, Urban Outfitters, Nike
-pip install -e ".[curl]"
-
-# + JS-challenge retailers: Wayfair, Nordstrom Rack, H&M, Overstock, Dick's, Costco
-pip install -e ".[all]"
-playwright install chromium  # one-time: downloads the Chromium browser binary
-```
-
-> **What `-e` means:** editable install: Python points directly at this folder, so any edits you make to the source take effect immediately without reinstalling.
-
----
-
 ## Quick Start
 
 ```python
@@ -431,15 +411,13 @@ playwright install chromium
 
 ## Limitations
 
-- **H&M, Dick's Sporting Goods, Costco** : parsers are fully implemented and tested. However, Akamai's `_abck` cookie validation hard-blocks headless Chromium on these three sites, even with playwright-stealth. **A residential proxy is required** for live fetching. Fixtures for these are provided in `samples/` for offline use.
+- **H&M, Overstock, Dick's Sporting Goods, Costco** : parsers are fully implemented and tested. However, Akamai's `_abck` cookie validation hard-blocks headless Chromium on these three sites, even with playwright-stealth. **A residential proxy is required** for live fetching. Fixtures for these are provided in `samples/` for offline use.
 
 - **Wayfair** : PerimeterX "Press & Hold" challenge is partially solved (the hold interaction fires), but PX's behavioral sensor currently rejects headless Chrome. **A residential proxy significantly improves success rate.**
 
 - **Nordstrom Rack** : Akamai JS PoW clears automatically with the browser strategy. However, the site aggressively rate-limits repeated fetches from the same IP and redirects to `siteclosed.nordstromrack.com`. Production delays (20–45s between requests) are required.
 
 - **Costco** : Price is membership-gated. The parser returns all available fields with `member_only: true`; `price` is absent until a signed-in session is wired in.
-
-- **Overstock** : Requires a residential proxy (Akamai blocks headless Chrome). The parser handles both URL formats — `/Home-Garden/<slug>/<id>/product.html` and `/products/<slug>-<id>`. No listing page discovery module yet.
 
 - **Target** : Product price is not in the page HTML; it's fetched from a secondary XHR endpoint (the `redsky` pricing API). `scrape_product()` handles this automatically. Calling `parse_target.parse_product(html, url)` directly will return no price unless you also fetch `parse_target.price_api_url(tcin)` and pass the result as `price_data=`.
 
