@@ -2,6 +2,8 @@
 
 A polite, production-quality product data extractor for 16 major US retailers. Auto-routes any supported product URL to the right parser. Returns plain Python dicts. I would try to keep all the scrapers updated and will try to check in on this every 3 months since websites change very often. I will soon create a script that can run the scrapers every few days and check if they still work, and in case they don't I will update them.
 
+https://pypi.org/project/polite-retail-scrapers/
+
 ---
 
 ## What can you do with this?
